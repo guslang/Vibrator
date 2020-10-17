@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "779084427768",
+    "firebase_url": "https://vibrator-bb038.firebaseio.com",
+    "project_id": "vibrator-bb038",
+    "storage_bucket": "vibrator-bb038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779084427768:android:0617672934f066c9f9a60d",
+        "android_client_info": {
+          "package_name": "com.guslang.vibrator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779084427768-n6sn26fla9tf12craq9fed40ialg49ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2fxJ-TOoTH7ZhcOvcrk0Nc4y3UhtLbNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779084427768-n6sn26fla9tf12craq9fed40ialg49ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
