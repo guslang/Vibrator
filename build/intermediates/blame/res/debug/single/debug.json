@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corner_blue.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\rounded_corner_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corner_white.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\rounded_corner_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_love.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_love.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_circle.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\font_aclonica.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\font\\aclonica.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_onoff3.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_onoff3.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_figma01.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_bg_figma01.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_gradient.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\bg_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_thumb.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\custom_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corner_red.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\rounded_corner_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_love2.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_love2.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_7.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_bg_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_circle2.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_circle2.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_lock.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_pink.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_bg_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_onoff2.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_onoff2.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vibrator.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\layout\\activity_vibrator.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_progress.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\custom_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corner_orange.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\rounded_corner_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corner_title.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\rounded_corner_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_unlock.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\unlock.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_circle3.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_circle3.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_card_fill.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_bg_card_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg10.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\bg10.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

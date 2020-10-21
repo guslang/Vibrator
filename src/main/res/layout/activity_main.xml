@@ -11,10 +11,10 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/loading_pattern"
         android:layout_width="250dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_above="@+id/ono_btn"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="20dp"
         android:background="@android:color/transparent"
         app:lottie_autoPlay="true"
         app:lottie_fileName="speech-on.json"
@@ -106,6 +106,16 @@
         android:textSize="25dp"
         android:textStyle="bold|italic" />
 
+    <ImageView
+        android:id="@+id/imageView_lock"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/loading_pattern"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:tooltipText="UnLock"
+        app:srcCompat="@drawable/unlock" />
+
     <TextView
         android:id="@+id/textView_comment"
         android:layout_width="120dp"
@@ -128,10 +138,9 @@
         android:layout_height="65dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/rounded_corner_title"
         >
-
 
     </ImageView>
 
@@ -148,7 +157,7 @@
         android:paddingRight="40dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:gravity="center_vertical"
+        android:gravity="center_vertical|center_horizontal"
         android:weightSum="4"
         android:orientation="horizontal">
 
@@ -200,19 +209,16 @@
         android:id="@+id/pattern_title"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/imageView_bar"
-
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="105dp"
         android:background="@drawable/rounded_corner_white"
         android:fontFamily="sans-serif-condensed"
-
         android:text="Vibration Patterns"
         android:textAlignment="center"
         android:textColor="#ff74a4"
         android:textStyle="bold"
         android:textSize="15dp"
+        android:layout_alignTop="@id/imageView_bar"
+        android:layout_marginTop="-10dp"
         android:gravity="center_horizontal" />
 
 
@@ -226,7 +232,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="80dp"
         android:thumb="@drawable/custom_thumb"
         android:progressDrawable="@drawable/rounded_corner_red"
         android:max="100"
@@ -258,7 +264,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_weight="1"
-        app:adSize="SMART_BANNER"
+        app:adSize="BANNER"
         app:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
 
 

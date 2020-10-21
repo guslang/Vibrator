@@ -154,6 +154,18 @@ class MainActivity : AppCompatActivity() {
             startVibrate( textView_cpattern.tag.toString() ,bSwitch)
         }
 
+        imageView_lock.setOnClickListener {
+            Log.d(TAG, "MainActivity - onCreate() called : ${imageView_lock.tooltipText}")
+            if (imageView_lock.tooltipText.toString().toUpperCase() == "UNLOCK") {
+                imageView_lock.setImageResource(R.drawable.lock)
+                imageView_lock.tooltipText = "lock"
+            }
+            else {
+                imageView_lock.setImageResource(R.drawable.unlock)
+                imageView_lock.tooltipText = "unlock"
+            }
+        }
+
         seekBar_speed.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 // 진동 호출
@@ -387,8 +399,10 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "MainActivity - onResume() called")
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onPause() {
-        vibrator?.cancel()
+        if (imageView_lock.tooltipText.toString().toUpperCase() == "UNLOCK")
+            vibrator?.cancel()
         super.onPause()
         Log.d(TAG, "onPause: ")
     }
