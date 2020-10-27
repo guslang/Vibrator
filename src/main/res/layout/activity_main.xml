@@ -11,10 +11,10 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/loading_pattern"
         android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_height="100dp"
         android:layout_above="@+id/ono_btn"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:background="@android:color/transparent"
         app:lottie_autoPlay="true"
         app:lottie_fileName="speech-on.json"
@@ -91,9 +91,10 @@
 
     <TextView
         android:id="@+id/textView_cpattern"
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="50dp"
-        android:layout_above="@+id/loading_pattern"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp"
         android:background="@drawable/rounded_corner_white"
@@ -105,14 +106,32 @@
         android:textColor="@android:color/holo_red_light"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
+    <ImageView
+        android:id="@+id/imageView_rate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/textView_cpattern"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/star_rate_black_18dp" />
+
+    <ImageView
+        android:id="@+id/imageView_share"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/textView_cpattern"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/share_black_18dp" />
 
     <ImageView
         android:id="@+id/imageView_lock"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_alignBottom="@+id/loading_pattern"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/textView_cpattern"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="80dp"
         android:tooltipText="UnLock"
         app:srcCompat="@drawable/unlock" />
 
@@ -138,7 +157,7 @@
         android:layout_height="65dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="130dp"
         android:background="@drawable/rounded_corner_title"
         >
 
@@ -257,14 +276,14 @@
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="50dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="60dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_weight="1"
-        app:adSize="BANNER"
+        app:adSize="SMART_BANNER"
         app:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
 
 

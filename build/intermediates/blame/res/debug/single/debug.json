@@ -24,12 +24,12 @@
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_onoff3.xml"
     },
     {
-        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_figma01.xml.flat",
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_bg_figma01.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_gradient.xml.flat",
@@ -148,6 +148,10 @@
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_circle3.xml"
     },
     {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_share_black_18dp.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\share_black_18dp.png"
+    },
+    {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_card_fill.xml.flat",
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\ic_bg_card_fill.xml"
     },
@@ -162,6 +166,10 @@
     {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg10.png.flat",
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\bg10.png"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_star_rate_black_18dp.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\star_rate_black_18dp.png"
     },
     {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",

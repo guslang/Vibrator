@@ -1,7 +1,10 @@
 package com.guslang.vibrator
 
+import android.content.ActivityNotFoundException
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.VibrationEffect
@@ -43,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                 // Code to be executed when an ad finishes loading.
             }
 
-            override fun onAdFailedToLoad(adError : LoadAdError) {
+            override fun onAdFailedToLoad(adError: LoadAdError) {
                 // Code to be executed when an ad request fails.
             }
 
@@ -103,7 +106,7 @@ class MainActivity : AppCompatActivity() {
 //            val progressVal = seekBar_speed.progress
             if (!bSwitch) {  // 진동 켜기
                 Log.d(TAG, "onCreate: 진동 켜기")
-                startVibrate(textView_cpattern.tag.toString(),bSwitch)
+                startVibrate(textView_cpattern.tag.toString(), bSwitch)
                 ono_btn.playAnimation()
 
                 // Custom animation speed or duration.
@@ -135,23 +138,23 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "onCreate: pattern1 clicked")
             changePattern(1)
             // 진동 호출
-            startVibrate( textView_cpattern.tag.toString() ,bSwitch)
+            startVibrate(textView_cpattern.tag.toString(), bSwitch)
         }
         pattern2.setOnClickListener {
             Log.d(TAG, "onCreate: pattern2 clicked")
             changePattern(2)
-            startVibrate( textView_cpattern.tag.toString() ,bSwitch)
+            startVibrate(textView_cpattern.tag.toString(), bSwitch)
         }
         pattern3.setOnClickListener {
             Log.d(TAG, "onCreate: pattern3 clicked")
             changePattern(3)
-            startVibrate( textView_cpattern.tag.toString() ,bSwitch)
+            startVibrate(textView_cpattern.tag.toString(), bSwitch)
         }
         pattern4.setOnClickListener {
             Log.d(TAG, "onCreate: pattern4 clicked")
             changePattern(4)
             // 진동 호출
-            startVibrate( textView_cpattern.tag.toString() ,bSwitch)
+            startVibrate(textView_cpattern.tag.toString(), bSwitch)
         }
 
         imageView_lock.setOnClickListener {
@@ -169,7 +172,7 @@ class MainActivity : AppCompatActivity() {
         seekBar_speed.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 // 진동 호출
-                startVibrate( textView_cpattern.tag.toString() ,bSwitch)
+                startVibrate(textView_cpattern.tag.toString(), bSwitch)
 //                var strongValue: Int = 0
 //                if (progress > 0) {
 //                    strongValue = progress * 5 + 5;
@@ -193,6 +196,37 @@ class MainActivity : AppCompatActivity() {
                 Log.d(TAG, "onStopTrackingTouch: called")
             }
         })
+        // 앱 공유하기
+        imageView_share.setOnClickListener {
+            Log.d(TAG, "MainActivity - onCreate() share sns called")
+
+            val Sharing_intent = Intent(Intent.ACTION_SEND)
+            Sharing_intent.type = "text/plain"
+
+            val Test_Message = "https://play.google.com/store/apps/details?id=com.guslang.vibrator"
+
+            Sharing_intent.putExtra(Intent.EXTRA_TEXT, Test_Message)
+
+            val Sharing = Intent.createChooser(Sharing_intent, "공유하기")
+            startActivity(Sharing)
+        }
+        // 별점 주기 이동
+        imageView_rate.setOnClickListener {
+            Log.d(TAG, "MainActivity - onCreate() rating called")
+            val uri: Uri = Uri.parse("market://details?id=$packageName")
+            val goToMarket = Intent(Intent.ACTION_VIEW, uri)
+            // To count with Play market backstack, After pressing back button,
+            // to taken back to our application, we need to add following flags to intent.
+            goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
+                    Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
+                    Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
+            try {
+                startActivity(goToMarket)
+            } catch (e: ActivityNotFoundException) {
+                startActivity(Intent(Intent.ACTION_VIEW,
+                    Uri.parse("http://play.google.com/store/apps/details?id=$packageName")))
+            }
+        }
 
 
 //        imageView_Vibration.setOnClickListener {
@@ -232,7 +266,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun changePattern(iPattern : Int){
+    private fun changePattern(iPattern: Int){
         shortVibrate()
         when (iPattern) {
             1 -> {
@@ -341,7 +375,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun startVibrate(v_pattern : String, on_flag : Boolean) {
+    private fun startVibrate(v_pattern: String, on_flag: Boolean) {
         // 진동이 시작되는 타이밍
         var aTimings = longArrayOf()
         // 진동강도 설정
@@ -354,7 +388,7 @@ class MainActivity : AppCompatActivity() {
 
         // 진동 패턴에 따른 효과 설정
         when (v_pattern) {
-           "1" -> { //1.Constant
+            "1" -> { //1.Constant
                 aTimings = longArrayOf(0, 5000)
                 aAmplitudes = intArrayOf(0, 255)
 //               seekBar_speed.isEnabled = false

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
     },
     {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_share_black_18dp.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\share_black_18dp.png"
+    },
+    {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_rounded_corner_white.xml.flat",
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\rounded_corner_white.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_star_rate_black_18dp.png.flat",
+        "source": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\src\\main\\res\\drawable-v24\\star_rate_black_18dp.png"
     },
     {
         "merged": "C:\\Users\\jandb\\AndroidStudioProjects\\Vibrator\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
